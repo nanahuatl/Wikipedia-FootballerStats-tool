@@ -56,3 +56,7 @@ Bu ilk sürüm şu varsayımlarla çalışır:
 - Betik sadece vikimetni düzenler; yayımlama işlemini sizin yapmanız gerekir.
 - Farklı bir bilgi kutusu şablonu veya farklı parametre adı kullanıyorsanız betikteki düzenli ifadeler genişletilebilir.
 - Mevcut kariyer tablosu daha özel bir biçimdeyse bu sürüm onu yeniden kurar; elle eklenmiş özel biçimlendirmeleri korumaz.
+
+ ## Lisans
+
+- Bu proje [Creative Commons Attribution-ShareAlike 3.0 Unported](LICENSE) lisansı altında yayımlanmaktadır.
