@@ -28,7 +28,7 @@ Araç şunları yapar:
 
 1. Tarayıcıya Tampermonkey veya Violentmonkey kurun.
 2. Yeni bir kullanıcı betiği oluşturun.
-3. [`trwiki-football-stats.user.js`](C:\Users\ozkan\wikipedia-football-stats-tool\trwiki-football-stats.user.js) içeriğini yapıştırın.
+3. [`trwiki-football-stats.user.js`] içeriğini yapıştırın.
 4. Betiği kaydedin.
 5. Türkçe Vikipedi'de kaynak düzenleme ekranını açın.
 
