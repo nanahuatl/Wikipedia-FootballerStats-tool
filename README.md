@@ -1,19 +1,21 @@
 # FootballerStats
 
-Bu proje, Türkçe Vikipedi'de futbolcu maddelerini kaynak düzenleyicide düzenlerken sezonluk istatistik girişini hızlandırmak için hazırlanmış bir kullanıcı betiğidir.
-
-Güncel sürümde Transfermarkt detaylı istatistik sayfasından veriyi forma çekmeye yönelik bir deneme içe aktarma özelliği de vardır. Bu özellik veriyi doğrudan kaydetmez; önce forma doldurur, kullanıcı kontrol eder.
+Bu proje, Türkçe Vikipedi'de futbolcu maddelerini değiştirirken, kariyer istatistik girişini hızlandırmak için hazırlanmış bir kullanıcı betiğidir.
 
 Araç şunları yapar:
 
-- Düzenleme ekranına `FootballerStats` düğmesi ekler.
+- Değişiklik ekranına `FootballerStats` düğmesi ekler.
 - Açılan pencerede şu alanları satır bazında toplar:
   - takım
   - sezon
   - lig maçı
   - lig golü
-  - kupa maçı
-  - kupa golü
+  - yerel lig maçı
+  - yerel lig golü
+  - ulusal kupa maçı
+  - ulusal kupa golü
+  - lig kupası maçı
+  - lig kupası golü
   - kıtasal müsabaka maçı
   - kıtasal müsabaka golü
   - diğer maç
@@ -25,7 +27,6 @@ Araç şunları yapar:
 - Tablo sonunda genel toplam maç ve genel toplam gol satırı ekler.
 
 ## Kurulum
-
 1. Tarayıcıya Tampermonkey veya Violentmonkey kurun.
 2. Yeni bir kullanıcı betiği oluşturun.
 3. [`trwiki-football-stats.user.js`](C:\Users\ozkan\wikipedia-football-stats-tool\trwiki-football-stats.user.js) içeriğini yapıştırın.
@@ -33,16 +34,14 @@ Araç şunları yapar:
 5. Türkçe Vikipedi'de kaynak düzenleme ekranını açın.
 
 ## Kullanım
-
-1. Maddeyi `Kaynağı değiştir` ile açın.
+1. Futbolcu maddesini açın.
 2. Üst kısımda gelen `FootballerStats` düğmesine tıklayın.
-3. Her sezon için bir satır doldurun.
-4. `Onizleme olustur` ile üretilecek vikimetni görün.
-5. `Metne uygula` düğmesi ile içerik düzenleme kutusuna yazdırın.
+3. Maddede kullanılan bir bilgi kutusu varsa, bilgi kutusundaki bazı veriler aracın arayüzüne otomatik olarak geleccektir.
+4. Futbolcunun her bir sezonda, farklı müsabakalardaki istatistiklerini girin.
+5. `Önizle` ile üretilecek metni görün.
 6. Normal Vikipedi kayıt akışı ile değişikliği kaydedin.
 
 ## Varsayımlar
-
 Bu ilk sürüm şu varsayımlarla çalışır:
 
 - Kaynak düzenleyicide ana metin kutusu `wpTextbox1` kimliğini kullanır.
@@ -52,11 +51,9 @@ Bu ilk sürüm şu varsayımlarla çalışır:
 - Kariyer istatistik başlığı `== Kariyer istatistikleri ==` olarak yazılır.
 
 ## Notlar
-
-- Betik sadece vikimetni düzenler; yayımlama işlemini sizin yapmanız gerekir.
+- Betik sadece vikimetni düzenler, değişiklikleri sizin kaydetmeniz gerekir.
 - Farklı bir bilgi kutusu şablonu veya farklı parametre adı kullanıyorsanız betikteki düzenli ifadeler genişletilebilir.
-- Mevcut kariyer tablosu daha özel bir biçimdeyse bu sürüm onu yeniden kurar; elle eklenmiş özel biçimlendirmeleri korumaz.
+- Mevcut kariyer tablosu daha özel bir biçimdeyse bu sürüm onu yeniden kurar, elle eklenmiş özel biçimlendirmeleri korumaz.
 
 ## Lisans
-
 Bu proje [Creative Commons Attribution-ShareAlike 3.0 Unported](LICENSE) lisansı altında yayımlanmaktadır.
