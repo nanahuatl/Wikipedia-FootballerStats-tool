@@ -1,4 +1,4 @@
-# Türkçe Vikipedi Futbolcu İstatistik Aracı
+# FootballerStats
 
 Bu proje, Türkçe Vikipedi'de futbolcu maddelerini kaynak düzenleyicide düzenlerken sezonluk istatistik girişini hızlandırmak için hazırlanmış bir kullanıcı betiğidir.
 
@@ -6,7 +6,7 @@ Güncel sürümde Transfermarkt detaylı istatistik sayfasından veriyi forma ç
 
 Araç şunları yapar:
 
-- Düzenleme ekranına `Futbolcu istatistik araci` düğmesi ekler.
+- Düzenleme ekranına `FootballerStats` düğmesi ekler.
 - Açılan pencerede şu alanları satır bazında toplar:
   - takım
   - sezon
@@ -28,14 +28,14 @@ Araç şunları yapar:
 
 1. Tarayıcıya Tampermonkey veya Violentmonkey kurun.
 2. Yeni bir kullanıcı betiği oluşturun.
-3. [`trwiki-football-stats.user.js`] içeriğini yapıştırın.
+3. [`trwiki-football-stats.user.js`](C:\Users\ozkan\wikipedia-football-stats-tool\trwiki-football-stats.user.js) içeriğini yapıştırın.
 4. Betiği kaydedin.
 5. Türkçe Vikipedi'de kaynak düzenleme ekranını açın.
 
 ## Kullanım
 
 1. Maddeyi `Kaynağı değiştir` ile açın.
-2. Üst kısımda gelen `Futbolcu istatistik araci` düğmesine tıklayın.
+2. Üst kısımda gelen `FootballerStats` düğmesine tıklayın.
 3. Her sezon için bir satır doldurun.
 4. `Onizleme olustur` ile üretilecek vikimetni görün.
 5. `Metne uygula` düğmesi ile içerik düzenleme kutusuna yazdırın.
@@ -57,6 +57,6 @@ Bu ilk sürüm şu varsayımlarla çalışır:
 - Farklı bir bilgi kutusu şablonu veya farklı parametre adı kullanıyorsanız betikteki düzenli ifadeler genişletilebilir.
 - Mevcut kariyer tablosu daha özel bir biçimdeyse bu sürüm onu yeniden kurar; elle eklenmiş özel biçimlendirmeleri korumaz.
 
- ## Lisans
+## Lisans
 
-- Bu proje [Creative Commons Attribution-ShareAlike 3.0 Unported](LICENSE) lisansı altında yayımlanmaktadır.
+Bu proje [Creative Commons Attribution-ShareAlike 3.0 Unported](LICENSE) lisansı altında yayımlanmaktadır.

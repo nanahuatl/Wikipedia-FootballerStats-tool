@@ -1,8 +1,13 @@
 {
+	"title": "FootballerStats",
+	"name": "footballer-stats",
+	"version": "0.15.20",
+	"description": "Türkçe Vikipedi futbolcu maddeleri için kariyer istatistikleri aracı",
 	"private": true,
+	"license": "CC BY-SA 3.0",
 	"scripts": {
-		"lint": "eslint src/trwiki-football-stats.user.js",
-		"lint:fix": "eslint src/trwiki-football-stats.user.js --fix"
+		"lint": "eslint trwiki-football-stats.user.js",
+		"lint:fix": "eslint trwiki-football-stats.user.js --fix"
 	},
 	"devDependencies": {
 		"eslint-config-wikimedia": "^0.32.5"
